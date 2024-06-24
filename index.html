@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Portfolio CAMARA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h6 class="m-0 display-5"><span class="text-primary"><em><strong>Francais</strong></em> </span></a>|  <a href="english/index.html" class="navbar-brand ml-lg-3"><strong><em>English</em></strong></h6></a>
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Accueil</a>
+                <a href="#about" class="nav-item nav-link">Profil</a>
+                <a href="#qualification" class="nav-item nav-link">Formation</a>
+                <a href="#skill" class="nav-item nav-link">Compétences</a>
+                <!--<a href="#service" class="nav-item nav-link">Service</a>-->
+                <a href="#portfolio" class="nav-item nav-link">Projets</a>
+                <a href="#realisation" class="nav-item nav-link">Réalisations</a>
+                <!--<a href="#blog" class="nav-item nav-link">Blog</a>-->
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <!--<a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>-->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.png" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Je suis</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Ibrahim CAMARA</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Ingénieur Développeur Full stack, Développeur Web, Développeur d'applications mobiles</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="pdf/CURRICULUM VITAE.pdf" target="_blank" class="btn btn-outline-light mr-5">Voir mon CV</a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="video/Rencontrez Ibrahim Camara, Développeur Full Stack!.mp4" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Profil</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Mon profil</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/a-propos.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Concepteur, développeur Web & mobile</h3>
+                    <p>Ce professionnel se distingue par une détermination manifeste à exceller dans ses missions, un trait de caractère reflété par son parcours académique remarquable. Major de sa promotion et bénéficiant d'une mention Bien lors de sa soutenance de fin d'études, il perpétue cette résolution dans le contexte professionnel, cherchant activement à contribuer à l'évolution de l'entreprise.
+
+Son ensemble de compétences techniques est étendu et diversifié, englobant des technologies telles que .Net, C#, API RESTful, SOAP, PHP, HTML5, CSS3, JavaScript avec une expertise particulière dans React, Node.js, Express.js. Il excelle également dans les bases de données Oracle, SQL Server, MySQL, MongoDB, et possède des compétences en développement mobile avec Flutter. Son expertise s'étend à la modélisation avec MERISE/UML, et il est familier avec l'utilisation d'outils tels que Jira. En plus de ses compétences techniques, il maîtrise parfaitement l'anglais.
+
+Ce profil combine donc une solide formation académique, une passion pour l'excellence dans le travail, une expertise étendue dans diverses technologies de développement, et une compétence linguistique approfondie. Ces qualités font de lui un atout précieux pour tout projet ou équipe cherchant à atteindre des standards élevés de performance et d'innovation</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Nom: <span class="text-secondary">Ibrahim Camara</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Date de naissance: <span class="text-secondary">29 Mai 1986</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Diplôme: <span class="text-secondary">Ingénieur de conception</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Expérience: <span class="text-secondary">10 ans</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Téléphone: <span class="text-secondary">+225 0779046607</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">camsoib01@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Adresse: <span class="text-secondary">Abidjan, COTE D'IVOIRE</span></h6></div><br>
+                        <!--<div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>-->
+                        
+                    </div>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Major de promotion</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Expertise étendue dans diverses technologies de développement</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Maîtrise parfaite de l'anglais (bilingue)</p>
+                    <!--<a href="" class="btn btn-outline-primary mr-4">Hire Me</a>-->
+                    <a href="#qualification" class="btn btn-outline-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Formation</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Formation & Expéricences</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Formations IT</h5>
+                            <p class="mb-2"><strong>TUNAV Tunisie</strong> | <small>2019</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Diplôme d’Ingénieur en Informatique BAC + 5</h5>
+                            <p class="mb-2"><strong>GROUPE CEFIAT</strong> | <small>2010 - 2012</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Diplôme de Brevet de Technicien Supérieur option NTIC</h5>
+                            <p class="mb-2"><strong>GROUPE LOKO</strong> | <small>2008 - 2009</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Baccalauréat Série D</h5>
+                            <p class="mb-2"><strong>Lycée Municipal de Marcory</strong> | <small>2007</small></p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Expéricences</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Ingénieur Développeur Full stack grands comptes</h5>
+                            <p class="mb-2"><strong>COMAFRIQUE TECHNOLOGIES</strong> | <small>2021</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Chef de projet / Développement d’application</h5>
+                            <p class="mb-2"><strong>COMAFRIQUE TECHNOLOGIES</strong> | <small>2019 - 2021</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Développeur d’application/ Data Analyst</h5>
+                            <p class="mb-2"><strong>COMAFRIQUE TECHNOLOGIES</strong> | <small>2015 - 2019</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Responsable Informatique</h5>
+                            <p class="mb-2"><strong>ECOLE DE MODE TIDIANE T. (EM2T)</strong> | <small>2014 - 2015</small></p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Mes compétences</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">React.js/Vue.js</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Node.js/Express.js</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">.Net</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">PHP</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Cération et utilisation d'API</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SQL Server/MySQL/MongoDB</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                   
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Angular JS</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Développement mobile</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Jira</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Github & BitBucket</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <!--<div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">SEO</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Content Creating</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Mes Projets</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Quelques projets</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Tous les Projets</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Intégration API Mobile Money</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Développement mobile</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Développement Web</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Integration Call Center</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fifth">Gestion de projet</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mobile-money.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="#realisation"><i class="fa fa-link"></i></a>
+                            <a href="img/mobile-money.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/dev-web.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="#realisation"><i class="fa fa-link"></i></a>
+                            <a href="img/dev-web.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item fourth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/call-center.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="#realisation"><i class="fa fa-link"></i></a>
+                            <a href="img/call-center.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mobile-dev.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="#realisation"><i class="fa fa-link"></i></a>
+                            <a href="img/mobile-dev.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item fifth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/project.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="#realisation"><i class="fa fa-link"></i></a>
+                            <a href="img/project.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="realisation">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Réalisations</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Quelques réalisations</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <!--<i class="fa fa-3x fa-quote-left text-primary mb-4"></i>-->
+                            <h5>Application Web sécurisée (Intranet-Ministère)</h5>
+                            <h4 class="font-weight-light mb-4"><h6>1.1 Exigences</h6>
+J'ai développé une application web sécurisée, exclusivement réservée aux utilisateurs habilités. Cette application permet une gestion centralisée et sécurisée des certains fichiers à caractères sensibles que nous ne nommerons pas.
+
+<h6>1.2 Objectif</h6>
+L'application permet aux utilisateurs disposant des accréditations nécessaires de se connecter via un login et un mot de passe. Les principales fonctionnalités incluent :
+
+Accès sécurisé à l'application pour les utilisateurs autorisés.
+Récupération et affichage des fichiers spécifiques.
+Possibilité de télécharger les fichiers.
+
+<h6>1.3 Public visé</h6>
+
+Utilisateurs accrédités du Ministère
+Administrateurs système
+Développeurs et ingénieurs en sécurité
+
+<h6>Détails du Projet</h6>
+
+<h6>2.1 Sécurité et Confidentialité</h6>
+L'application est conçue avec une priorité absolue sur la sécurité et la confidentialité des données. Les mesures de sécurité comprennent :
+Authentification par login et mot de passe pour garantir que seuls les utilisateurs autorisés ont accès.
+Utilisation de protocoles de communication sécurisés (HTTPS) pour toutes les interactions avec l'application.
+Stockage sécurisé des fichiers audio et des informations des utilisateurs.
+<h6>2.2 Fonctionnalités Clés</h6>
+Connexion Sécurisée : Authentification stricte pour accéder à l'application, garantissant que seules les personnes accréditées peuvent y accéder.
+Gestion des fichiers : Affichage et organisation des des fichiers dans une interface claire et intuitive.
+Téléchargement : Option de téléchargement pour une analyse ou un archivage ultérieur.
+
+Technologies Utilisées
+Frameworks de développement web sécurisés (ex : .Net, Laravel)
+Protocoles de sécurité : HTTPS, SSL/TLS
+Systèmes de gestion de bases de données sécurisées
+Outils d'authentification et de gestion des utilisateurs.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Ministère - COTE D'IVOIRE</h5>
+                           <!-- <span>Profession</span>-->
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <!--<img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">-->
+                               <!-- <div class="testimonial-icon">-->
+                               <div>
+                                    <!--<i class="fa fa-quote-left text-primary"></i>-->
+                                    <h5>Application Mobile de Gestion des Tickets</h5>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">
+<h6>1.1 Exigences</h6>
+J'ai développé une application mobile qui interagit avec GLPI (Gestionnaire Libre de Parc Informatique). Cette application vise à améliorer la gestion des tickets en permettant aux utilisateurs de suivre et de gérer les tickets directement depuis leur téléphone mobile.
+
+<h6>1.2 Objectif</h6>
+L'application mobile permet aux utilisateurs de :
+
+Recevoir des notifications de nouveaux tickets.
+Visualiser et gérer les tickets assignés.
+Transférer des tickets à d'autres utilisateurs.
+Ajouter des descriptions ou commentaires lors de la résolution des tickets.
+Suivre l'historique et le statut des tickets.
+<h6>1.3 Intended Audience</h6>
+
+Utilisateurs finaux de COMAFRIQUE TECHNOLOGIES
+Administrateurs GLPI
+Responsables de support technique
+Détails du Projet
+<h6>2.1 Fonctionnalités Clés</h6>
+
+Dashboard
+
+Affichage d'un camembert pour une visualisation rapide de la répartition des tickets.
+Affichage du nombre de tickets résolus et en attente.
+Taux de résolution des tickets.
+Liste des derniers tickets en attente.
+Transfert de Tickets
+
+Possibilité de transférer un ticket à un autre utilisateur.
+Sélection de l'utilisateur désiré à partir d'un menu déroulant affichant les noms et prénoms des utilisateurs enregistrés sur le serveur GLPI.
+Ajout d'un Champ "Description"
+
+Lors de la résolution d'un ticket, les utilisateurs peuvent ajouter une description ou un commentaire complémentaire.
+Affichage des Tickets
+
+Les tickets sont affichés du plus récent au plus ancien, améliorant la visibilité des nouveaux tickets.
+Affichage du niveau d'urgence pour chaque ticket.
+Historique des Tickets
+
+Affichage détaillé de chaque ticket, incluant :
+ID du ticket
+Date et heure de création
+Date et heure de résolution
+Dernière modification
+Nom et prénom du demandeur et du destinataire
+Statut du ticket
+Fonction de recherche pour retrouver un ticket spécifique.
+Notifications de Réception
+
+Une notification est envoyée sur le téléphone de l'utilisateur chaque fois qu'un nouveau ticket est reçu.
+Technologies Utilisées
+GLPI : Système de gestion des tickets et des actifs informatiques.
+Framework de développement mobile (Flutter, Android studio, vs code)
+API REST : Pour l'intégration et la communication avec GLPI.
+Notifications Push : Pour alerter les utilisateurs de nouveaux tickets.
+
+<h6>Conclusion</h6>
+L'application mobile de gestion des tickets de COMAFRIQUE TECHNOLOGIES vise à améliorer l'efficacité et la réactivité dans la gestion des tickets de support. En offrant une interface intuitive et des fonctionnalités robustes, cette application permet aux utilisateurs de gérer les tickets de manière proactive et efficace, directement depuis leur téléphone mobile.</h4>
+                            <!--<img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">-->
+                            <h5 class="font-weight-bold m-0">COMAFRIQUE TECHNOLOGIES - COTE D'IVOIRE</h5>
+                            <!--<span>Profession</span>-->
+                        </div>
+                        <div class="text-center">
+                            <!--<i class="fa fa-3x fa-quote-left text-primary mb-4"></i>-->
+                            <h5>Intégration Mobile Money / SMART IVR / PUK CODE REQUEST API</h5>
+                            <h4 class="font-weight-light mb-4">Le projet d'intégration des services Mobile Money, SAMRT IVR, et PUK CODE REQUEST API pour le partenaire nécessitait la mise en place d'un environnement sécurisé afin de garantir une connexion fiable et protégée entre les serveurs du client et les nôtres. Voici les étapes clés de ce processus :
+
+<h6>Création d’un CSR (Certificate Signing Request) :</h6>
+La première étape consistait à générer une demande de signature de certificat (CSR) depuis notre serveur. Cette CSR contient des informations sur notre organisation et notre serveur, nécessaires pour obtenir un certificat SSL.
+
+<h6>Envoi du CSR au client pour signature :</h6>
+La CSR générée a ensuite été envoyée au client pour qu'ils puissent la signer avec leurs propres certificats. Cela garantit que nos communications seront reconnues comme sécurisées par leur système.
+
+<h6>Réception des certificats racine et intermédiaire :</h6>
+Une fois la CSR signée, nous avons reçu les certificats racine et intermédiaire. Ces certificats sont essentiels pour établir une chaîne de confiance entre nos serveurs et ceux du partenaire.
+
+<h6>Installation des certificats racine et intermédiaire dans le store :</h6>
+Nous avons ensuite installé les certificats racine et intermédiaire dans le magasin de certificats de notre serveur. Cette installation permet à notre serveur de reconnaître et de faire confiance aux certificats émis par le client.
+
+<h6>Test de connectivité entre serveurs et vérification des certificats :</h6>
+Une fois les certificats installés, nous avons effectué des tests de connectivité entre notre serveur et celui du client. Ces tests avaient pour but de vérifier que la connexion était correctement sécurisée et que les certificats étaient valides et fonctionnels.
+
+<h6>Modification du fichier host :</h6>
+Enfin, nous avons modifié le fichier host de notre serveur pour s'assurer que toutes les demandes vers les services du client utilisaient les nouvelles connexions sécurisées. Cette étape était cruciale pour garantir que toutes les communications se feraient via des canaux sécurisés.
+
+Grâce à ces étapes, nous avons pu établir une connexion sécurisée et fiable, permettant l'intégration réussie des services Mobile Money, SAMRT IVR, et PUK CODE REQUEST API pour notre partenaire. Ce projet a non seulement renforcé la sécurité des communications entre nos serveurs, mais a également permis d'améliorer l'efficacité et la fiabilité des services fournis au partenaire et à ses clients.
+
+<h6>Implémentation des API :</h6>
+
+L'intégration des différentes API nécessaires à ce projet suit un flux précis et structuré :
+
+SPTRANSFER : Transfert de fonds du compte du fournisseur de services à un autre compte inscrit.
+
+DEBIT : Gestion des paiements déclenchés via USSD, site web ou application.
+
+GETTRANSACTIONSTATUS : Obtention du statut des opérations de paiement, de transfert ou de débit précédemment initiées.
+
+REFUND : Utilisé pour les opérations de remboursement en cas de besoin de réversion. Il utilise l'ID de transaction ECW comme référence pour initier le remboursement.
+
+VALIDATEACCOUNTHOLDER : Validation d'un titulaire de compte.
+
+GETACCOUNTHOLDERINFO : Requête des détails de l'utilisateur, retournant des informations telles que les noms, le profil, et l'état du compte.
+
+Chaque API suit un schéma précis pour les requêtes et les réponses, assurant une communication fluide et sécurisée entre les systèmes. 
+
+<h6>Technologies Utilisées</h6>
+API
+.NET
+C#
+PHP
+cURL
+PowerShell
+OpenSSL.</h4>
+                            <h5 class="font-weight-bold m-0">MTN BENIN</h5>
+                            <!--<span>Profession</span>-->
+                        </div>
+                        
+                        
+<div class="text-center">
+                            <!--<i class="fa fa-3x fa-quote-left text-primary mb-4"></i>-->
+                            <h5>Responsable du Projet TRIE (Transit Routier Inter-États)</h5>
+                            <h4 class="font-weight-light mb-4"><h6>1.1 Contexte</h6>
+Le projet TRIE (Transit Routier Inter-États) est une initiative visant à améliorer le suivi et la gestion du transit routier entre les États membres. Le projet a été entrepris par la Chambre de Commerce et d'Industrie de Côte d'Ivoire (CCI-Côte d'Ivoire) pour renforcer les compétences en technologies de tracking et de géolocalisation des véhicules.
+
+<h6>1.2 Objectifs</h6>
+
+Transfert de compétences en technologies de tracking et de géolocalisation.
+Formation des agents de la CCI-Côte d'Ivoire à la gestion de projets.
+Amélioration de l'efficacité du transit routier inter-États.
+<h6>1.3 Public Cible</h6>
+
+Agents de la Chambre de Commerce et d'Industrie de Côte d'Ivoire (CCI-Côte d'Ivoire).
+Responsables de la gestion du transit routier inter-États.
+Membres de l'équipe de formation et de gestion du projet.
+Détails du Projet
+<h6>2.1 Rôle et Responsabilités</h6>
+
+<p>Encadrement et Formation</p>
+
+À la tête d'une équipe dédiée, nous avons encadré et formé les agents de la CCI-Côte d'Ivoire.
+Mise en place de sessions de formation sur les technologies de tracking et de géolocalisation des véhicules.
+Développement de modules de formation sur la gestion de projets.
+Technologies de Tracking et de Géolocalisation
+
+Introduction aux systèmes de tracking en temps réel pour le suivi des véhicules.
+Formation à l'utilisation de logiciels de géolocalisation et de gestion de flotte.
+Implémentation des technologies de tracking dans les opérations quotidiennes de transit.
+Gestion du Projet
+
+Planification et coordination des activités du projet TRIE.
+Supervision de l'équipe de projet pour assurer le bon déroulement des opérations.
+Suivi des performances et des résultats des agents formés.
+Technologies Utilisées
+Systèmes de Tracking en Temps Réel : Pour le suivi continu des véhicules en transit.
+Logiciels de Géolocalisation : Pour la localisation précise et la gestion de la flotte.
+Outils de Gestion de Projet : Pour la planification, l'organisation et le suivi des tâches du projet.
+Impact et Résultats
+Amélioration des Compétences
+
+Les agents de la CCI-Côte d'Ivoire ont acquis des compétences avancées en technologies de tracking et de géolocalisation.
+Renforcement des capacités en gestion de projets pour une meilleure coordination des activités de transit.
+Efficacité Opérationnelle
+
+Amélioration significative de l'efficacité et de la précision dans le suivi des véhicules en transit.
+Réduction des délais et des coûts liés au transit routier inter-États grâce à une meilleure gestion des ressources.
+Conclusion
+En tant que responsable du projet TRIE, notre mission a été de transférer les compétences nécessaires aux agents de la Chambre de Commerce et d'Industrie de Côte d'Ivoire. Grâce à une formation ciblée et à l'introduction de technologies de pointe, nous avons contribué à l'amélioration de la gestion du transit routier inter-États, renforçant ainsi l'efficacité et la compétitivité des opérations de la CCI-Côte d'Ivoire.</h4>
+                            <h5 class="font-weight-bold m-0">Chambre de Commerce et d'Industrie de Côte d'Ivoire</h5>
+                            <!--<span>Profession</span>-->
+                        </div>
+                        
+                        
+                        <div class="text-center">
+                            <!--<i class="fa fa-3x fa-quote-left text-primary mb-4"></i>-->
+                            <h5>Intégration Call Center</h5>
+                            <h4 class="font-weight-light mb-4"><h6>1.1 Exigences</h6>
+La Société Nationale d'Électricité du Burkina Faso (SONABEL) a mis en place un centre d'appels pour améliorer son service client. Ce projet a été réalisé avec la plateforme Altitude Enghouse Company.
+
+<h6>1.2 Scope</h6>
+Le centre d'appels utilise une interface scriptée qui guide les agents lors des appels entrants. Cette interface permet de :
+
+Fournir des informations aux clients.
+Recueillir les préoccupations des clients.
+Stocker des informations sur les clients.
+Générer des tickets pour résoudre les problèmes des clients.
+
+<h6>Détails du Projet</h6>
+<h6>2.1 Plateforme Utilisée</h6>
+Le centre d'appels utilise la solution d'Altitude Enghouse Company, intégrée avec divers scripts pour automatiser et guider les interactions avec les clients.
+
+<h6>2.2 Fonctionnalités Clés</h6>
+
+Interface Utilisateur pour les Agents : Une interface intuitive et interactive qui guide les agents à travers le processus de communication avec les clients.
+Information Client : Affiche les informations pertinentes sur le client dès le début de l'appel, permettant à l'agent de mieux comprendre et répondre aux besoins du client.
+Recueil de Préoccupations : Permet aux agents de documenter les préoccupations et les demandes des clients de manière structurée.
+Gestion des Tickets : Génère automatiquement des tickets pour chaque problème signalé, assurant un suivi et une résolution efficaces.
+<h6>2.3 Processus d'Appel</h6>
+
+Réception de l'Appel : L'agent reçoit un appel entrant, et l'interface affiche les informations du client et un script pour guider l'agent.
+Fourniture d'Informations : L'agent suit le script pour fournir les informations demandées par le client.
+Recueil de Préoccupations : L'agent documente les préoccupations du client dans le système.
+Création de Ticket : Un ticket est généré pour chaque problème, avec des détails sur la préoccupation du client et les actions nécessaires pour la résoudre.
+Technologies Utilisées
+Altitude Enghouse Company
+Scripts personnalisés pour l'interface utilisateur
+Bases de données pour le stockage des informations clients
+Système de gestion des tickets
+
+<h6>Certifications: </h6>
+- Altitude Certified Professional : EI - Altitude: ACP Technical Support
+- Altitude Certified Professional : EI - Altitude: ACP System Administrator</h4>
+                           <!-- <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">-->
+                            <h5 class="font-weight-bold m-0">SONABEL BURKINA FASO</h5>
+                            <!--<span>Profession</span>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <!--<div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contacts</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contactez moi</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Votre nom"
+                                        required="required" data-validation-required-message="Veuillez entrer votre nom" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Votre Email"
+                                        required="required" data-validation-required-message="Veuillez entrer votre email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Objet"
+                                    required="required" data-validation-required-message="Veuillez mentionner un objet" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Veuillez entrer votre message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Envoyer message</button>
+                            </div>
+                        </form>-->
+                       <!-- Remplace le formulaire -->
+                       
+                    <p class="mb-2">Adresse</p>
+                    <h3 class="fw-bold">Abidjan, COTE D'IVOIRE</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Téléphone et WhatsApp</p>
+                    <h3 class="fw-bold">+225 0779046604</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Email</p>
+                    <h3 class="fw-bold">camsoib01@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Site web</p>
+                    <h3 class="fw-bold">https://camsoib.github.io</h3>
+                    <!--<p class="mb-2">Suivez moi:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>-->
+                
+                       <!-- Remplace le formulaire -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+ 
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <!--<a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>-->
+                <a class="btn btn-light btn-social mr-2" href="https://web.facebook.com/ibrahima.camara.507" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="www.linkedin.com/in/ibrahim-camara"><i class="fab fa-linkedin-in"></i></a>
+                <!--<a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>-->
+            </div>
+            <!--<div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>-->
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Ibrahim CAMARA</a>. Tous droits réservés. 
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
